@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
-contract FakeSwap {
+contract Swap {
     event Swapped(address indexed user, uint256 amountIn, uint256 amountOut);
 
     function swap(uint256 amountIn) public {
